@@ -1,0 +1,54 @@
+/* Place your CSS styles in this file */
+
+@import url('https://fonts.cdnfonts.com/css/dash-horizon');
+
+h1 {
+    text-align: center;
+    font-family: dash horizon;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+body {
+    background: White;
+}
+
+.article {
+    border: 2px solid Black;
+    background-color: #ffff99;
+    padding: 25 25 25 25;
+    height: 1000px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h4 {
+    font-weight: medium;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.left1 {
+    width: 25%;
+    float: left;
+    border: 1px solid Black;
+    background-color: #ffff99;
+    padding: 20 20 20 20;
+    text-align: center;
+}
+
+.header {
+    border: 2px solid Black;
+    text-align: center;
+}
+
+.right2 {
+    width: 25%;
+    float: right;
+    border: 1px solid Black;
+}
