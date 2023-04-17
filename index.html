@@ -30,12 +30,13 @@
                   </div>
                   <div class="right2">
                   </div>
-            <button onclick="alertUser">More info</button>
+            <button onclick="alertFunction()">More info</button>
         <script>
             const count = 5;
-            function alertUser() {
+            function alertFunction() {
                 alert("Self-destructing in:" + count)
                 count--
+                alertFunction()
             }
             </script>
         </div>
