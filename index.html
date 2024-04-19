@@ -32,10 +32,10 @@
                   </div>
             <button onclick="alertFunction()">More info</button>
         <script>
-            const count = 5;
+            let count = 5;
             function alertFunction() {
                 alert("Self-destructing in:" + count)
-                count--;
+                count -= 1;
                 alertFunction();
             }
             </script>
